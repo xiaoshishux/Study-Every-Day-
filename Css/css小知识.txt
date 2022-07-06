@@ -1,0 +1,11 @@
+text-indent: 文本缩进
+line-height: 行距定义
+ padding- 内边距
+margin 外边距
+
+ overflow: hidden; 溢出隐藏
+    text-align: center; 水平居中对齐
+display: block 定义块级元素
+list-style-type: none; 去除列表项预设标记
+ text-decoration: none;去除文本装饰
+ border:1px solid #e7e7e7;  边框定义
