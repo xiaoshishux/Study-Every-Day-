@@ -1,4 +1,12 @@
-### **display、float、position 的关系**
+### **sdisplay、float、position 的关系**
+
+
+
+| **设定值**                                                   | **转换后** |
+| ------------------------------------------------------------ | ---------- |
+| inline-table                                                 | table      |
+| nline, inline-block,run-in,table-row-group,table-column,table-column-group,table-header-group,table-footer-group,table-row,table-cell,table-caption | table      |
+| 其他                                                         | 保持设置值 |
 
 （1）首先判断 display 属性是否为 none，如果为 none，则 position 和 float 属性的值不影响元素最后的表现。
 

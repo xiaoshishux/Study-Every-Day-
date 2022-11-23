@@ -1,3 +1,5 @@
+# typeof null 的结果是什么，为什么？
+
 typeof null 的结果是Object。
 
 
