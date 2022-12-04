@@ -59,5 +59,3 @@ const router = new VueRouter({
 
 
 hash模式和history模式都有各自的优势和缺陷，还是要根据实际情况选择性的使用。
-
-2.hisstory模式

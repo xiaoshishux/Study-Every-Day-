@@ -30,3 +30,14 @@ Model和View并无直接关联，而是通过ViewModel来进行联系的，Model
 
 MVP 模式与 MVC 唯一不同的在于 Presenter 和 Controller。在 MVC 模式中使用观察者模式，来实现当 Model 层数据发生变化的时候，通知 View 层的更新。这样 View 层和 Model 层耦合在一起，当项目逻辑变得复杂的时候，可能会造成代码的混乱，并且可能会对代码的复用性造成一些问题。MVP 的模式通过使用 Presenter 来实现对 View 层和 Model 层的解耦。MVC 中的Controller 只知道 Model 的接口，因此它没有办法控制 View 层的更新，MVP 模式中，View 层的接口暴露给了 Presenter 因此可以在 Presenter 中将 Model 的变化和 View 
 
+
+
+总结：
+
+1、这三者都是框架模式，它们设计的目标都是为了解决Mode和View的耦合问题
+
+2、MVC模式出现比较早主要应用在后端，如Spring MVC、ASP.NET MVC 等，在前端领域的早期也有应用，如BackBone.js。它们的优点是分层清晰，确定是数据流混乱，灵活性带来的维护性问题
+
+3、MVP模式是在MVC的进化形式，Presenter作用中间层负责MV通信，解决了两者耦合问题，但P层过于臃肿会导致维护问题
+
+4、MVVM模式在前端领域有广泛应用，它解决MV耦合问题，还同时解决了维护两者映射关系的大量繁衍代码和DOM操作，提高开发效率、可读性同时保持了优越的性能表现
